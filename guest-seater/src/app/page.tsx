@@ -1,11 +1,13 @@
 'use client' 
 
-import { Allotment } from "allotment";
+import { Allotment} from "allotment";
 import "allotment/dist/style.css";
 
 import ControlPanel from "./controlPanel";
 import GuestPanel from "./guestPanel";
 import NoSSRSeatingPanel from "./NoSsrSeatingPanel";
+import { createRef } from "react";
+
 
 export default function Home() {
   return (
@@ -18,4 +20,4 @@ export default function Home() {
       </Allotment>
     </div>
   );
-}
+} 

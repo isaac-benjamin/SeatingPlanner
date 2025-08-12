@@ -5,5 +5,5 @@ const NoSSR = dynamic(() => import("./seatingChartPanel"), {
 });
 
 export default function NoSSRSeatingPanel() {
-  return <NoSSR />;
+  return <NoSSR/>;
 }
