@@ -15,11 +15,9 @@
     "@mui/material": "^7.3.1",
     "@mui/styled-engine-sc": "^7.3.1",
     "allotment": "^1.20.4",
-    "konva": "^9.3.22",
     "next": "15.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-konva": "^19.0.7",
     "react-rnd": "^10.5.2",
     "react-use-measure": "^2.1.7",
     "styled-components": "^6.1.19"

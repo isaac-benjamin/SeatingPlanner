@@ -6,7 +6,6 @@ import "allotment/dist/style.css";
 import ControlPanel from "./controlPanel";
 import GuestPanel from "./guestPanel";
 import NoSSRSeatingPanel from "./NoSsrSeatingPanel";
-import { createRef } from "react";
 
 
 export default function Home() {
