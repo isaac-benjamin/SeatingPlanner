@@ -3,9 +3,9 @@
 import { Allotment} from "allotment";
 import "allotment/dist/style.css";
 
-import ControlPanel from "./controlPanel";
-import GuestPanel from "./guestPanel";
-import NoSSRSeatingPanel from "./NoSsrSeatingPanel";
+import ControlPanel from "./web_panels/controlPanel";
+import GuestPanel from "./web_panels/guestPanel";
+import NoSSRSeatingPanel from "./web_panels/NoSsrSeatingPanel";
 
 
 export default function Home() {
