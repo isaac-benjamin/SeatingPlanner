@@ -4,8 +4,8 @@ import { RectReadOnly } from "react-use-measure";
 import Chair from "./Chair";
 
 interface tableProps{
-    bound:RectReadOnly
-    circle?:boolean
+    bound:RectReadOnly;
+    circle?:boolean;
 }
 
 type Dimensions={
@@ -46,7 +46,6 @@ export default function Table({bound, circle}:tableProps){
                     Arrange them evenly throughout table
                         Figure out how to modularly make 
                  */}
-                 <Chair/>
             </div>
         </Rnd>
     )

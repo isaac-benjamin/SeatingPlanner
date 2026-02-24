@@ -1,6 +1,6 @@
-import { Rnd } from "react-rnd";
-import Table from "../seating_objects/table";
+import TablePanel from "./tablePanel";
 import useMeasure from "react-use-measure";
+// import RectReadOnly from "react-use-measure";
 
 
 export default function SeatingChartPanel(){
@@ -10,7 +10,7 @@ export default function SeatingChartPanel(){
 
     return(
         <div className="h-full " ref={divRef} >
-            <Table bound={bounds} circle={true}></Table>
+            <TablePanel bounds={bounds}/>
         </div>
     );
 }
